@@ -29,9 +29,9 @@ class webBot():
         self.driver.switch_to_window(pop_up_window)
 
         fb_email = self.driver.find_element_by_xpath('//*[@id="email"]') 
-        fb_email.send_keys('5192006717')
+        fb_email.send_keys('1234567890')
         fb_pass = self.driver.find_element_by_xpath('//*[@id="pass"]')
-        fb_pass.send_keys('facebook4life')
+        fb_pass.send_keys('password')
         fb_login = self.driver.find_element_by_xpath('//*[@id="u_0_0"]')
         fb_login.click()
 
